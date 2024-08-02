@@ -11,7 +11,7 @@ function App() {
       <Mynav/>
 
       <Routes>
-        <Route path='' element={<Myhome />} />
+        <Route path='/myapps/' element={<Myhome />} />
         <Route path="/NGO's" element={<Myngos />} />
         <Route path="/Events" element={<Myevents />} />
       </Routes>

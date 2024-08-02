@@ -20,7 +20,7 @@ function Mynav() {
                 <img className="menu" onClick={toggleMenu} src={menu} alt="menu" />
             </div>
             <ul className={`navLink ${isMenuVisible ? 'active' : ''}`} >
-                <li><Link className="Link" to="/">Home</Link></li>
+                <li><Link className="Link" to="/myapps/">Home</Link></li>
                 <li><Link className="Link" to="/NGO's" >NGO's</Link></li>
                 <li><Link className="Link" to="/Events" >Events</Link></li>  
             </ul>
