@@ -1,0 +1,52 @@
+.eventCrd {
+    width: 250px;
+    background-color: #eaf3ff;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    max-width: 350px;
+    min-width: 250px;
+}
+
+.img {
+    width: 100%;
+    height: 45%;
+    border-radius: 8px 8px 0px 0px;
+    margin-bottom: 10px;
+}
+
+.txt {
+    padding: 0px 20px ;
+    text-align: start;
+}
+
+.name {
+    overflow: hidden;
+    font-family: "Lato";
+    font-weight: 900;
+    font-size: 30px;
+    margin: 0px;
+    height: 10%;
+}
+
+.dd {
+    overflow: hidden;
+    font-family: "Lato";
+    font-weight: 900;
+    font-size: 15px;
+    height: 100px
+}
+
+.cta {
+    width: 90%;
+    height: 50px;
+    font-family: "Lato";
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    background:linear-gradient(90deg, rgba(0,102,255,1) 0%, rgba(0,67,168,1) 100%);
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+}

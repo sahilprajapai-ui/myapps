@@ -1,0 +1,18 @@
+h2 {
+    color: #0066ff ;
+    font-family: "Lato";
+    font-size: 32px;
+   letter-spacing: 0px;
+    padding: 0px 20px ;
+}
+
+.cardImg {
+    width: 100%;
+}
+
+.Card {
+    width: 380px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+}

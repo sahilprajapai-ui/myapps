@@ -1,0 +1,45 @@
+h1 {
+    font-family: "Lato", ;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 35px ;
+    font-size: 64px;
+    color: #464646;
+    margin-bottom: -10px;
+}
+
+p {
+    font-family: "Lato", ;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: #464646;
+}
+
+em {
+    font-family: "Lato", sans-serif;
+    font-weight: 800 ;
+    font-style: normal;
+    background: linear-gradient(90deg, rgba(0,102,255,1) 0%, rgba(0,67,168,1) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;  
+    background-clip: none;
+    font-size: clamp(12rem, 5vw, 4rem) ;
+    padding: 20px;
+}
+
+.heroImg {
+    width: 90%;
+}
+
+
+@media only screen and (max-width: 900px) {
+    h1 {
+        font-size: 30px;
+        letter-spacing: 10px;
+    }
+
+    em {
+        font-size: 100px;
+    }
+}

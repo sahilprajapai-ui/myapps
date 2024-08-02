@@ -1,0 +1,70 @@
+.hero4 h6 {
+    font-family: "Lato";
+    font-weight: 900;
+    font-style: normal;
+    font-size: 30px;
+    color: #0066ff;
+    margin: 0px;
+}
+
+.hero4 {
+    display: flex;
+    gap: 100px ;
+    justify-content: center;
+    text-align: left;
+    padding: 50px;
+}
+
+.hero4  .hero4img {
+    width: 60%;
+}
+
+.hero4 .text {
+    padding-right: 100px;
+}
+
+@media only screen  and (max-width : 900px){
+
+    .hero4 .text {
+        padding-right: 20px;
+    }  
+
+    .hero4 {
+        display: flex;
+        gap: 20px ;
+        justify-content: center;
+        text-align: left;
+        padding: 50px;
+    }
+    .hero4 h6 {
+        font-size: 25px;
+    }
+
+    .hero4 p {
+        font-size: 10px;
+    }
+    
+}
+
+@media screen  and (min-width : 900px) and (max-width : 1400px) {
+
+    .hero4 .text {
+        padding-right: 20px;
+    }  
+
+    .hero4 {
+        display: flex;
+        gap: 20px ;
+        justify-content: center;
+        text-align: left;
+        padding: 50px;
+    }
+    .hero4 h6 {
+        font-size: 25px;
+    }
+
+    .hero4 p {
+        font-size: 20px;
+    }
+    
+}

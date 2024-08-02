@@ -1,0 +1,36 @@
+.hero2 {
+    background-color: rgba(000, 102, 255, 20%);
+    padding: 20px;
+    margin: 50px 0px ;
+}
+
+h2 {
+    color: #0066ff ;
+    font-family: "Lato";
+    font-size: 32px;
+    letter-spacing: 0px;
+    padding: 10px 20px ;
+}
+
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 800px) {
+    .cards {
+        flex-direction: column;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        gap : 10px ;
+    }
+
+    .hero2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

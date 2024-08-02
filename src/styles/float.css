@@ -1,0 +1,47 @@
+.float {
+    display: flex;
+    width: 300px;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.float p {
+    font-family: "Lato";
+    font-weight: 900;
+    font-style: normal;
+    font-size: 30px;
+    color: #0066ff;
+    margin: 0px;
+    width: 50%;
+    border-left: solid #06f 5px;
+    padding: 20px 20px 20px 50px ;
+}
+
+.float h6 {
+    font-family: "Lato";
+    font-weight: 900;
+    font-style: normal;
+    width: 50%;
+    font-size: 30px;
+    color: #000;
+    margin: 0px;
+    padding: 20px;
+} 
+
+@media only screen and (max-width: 768px) {
+    .float {
+        background: linear-gradient(90deg, rgba(0,102,255,1) 0%, rgba(0,67,168,1) 100%);
+        width: 80%; 
+        color: aliceblue;
+        border-radius: 12px ;
+    }
+
+    .float h6 {
+        color: aliceblue;
+    }
+
+    .float p {
+        color: #fff;
+        border-left: none;
+    }
+}
